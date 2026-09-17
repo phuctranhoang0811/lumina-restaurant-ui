@@ -41,8 +41,8 @@ export default function Menu() {
               <h2 className="text-3xl font-serif text-stone-800 mb-8 pb-4 border-b border-stone-200">{category.title}</h2>
               <div className="space-y-8">
                 {category.items.map((item, i) => (
-                  <div key={i} className="flex justify-between items-start">
-                    <div className="max-w-[75%]">
+                  <div key={i} className="flex justify-between items-start gap-4">
+                    <div className="max-w-full sm:max-w-[75%]">
                       <h3 className="text-xl font-medium text-stone-900 tracking-wide">{item.name}</h3>
                       <p className="text-stone-500 mt-2 font-light text-sm md:text-base leading-relaxed">{item.desc}</p>
                     </div>

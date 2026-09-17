@@ -17,7 +17,7 @@ export default function Reservation() {
           <div className="p-10 md:p-14">
             <h2 className="text-2xl font-serif text-stone-800 mb-8">Reserve a Table</h2>
             <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
-              <div className="grid grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-stone-700 mb-2">Date</label>
                   <input type="date" className="w-full border border-stone-300 px-4 py-3 rounded-sm focus:outline-none focus:border-amber-700" />
